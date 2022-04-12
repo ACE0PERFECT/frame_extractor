@@ -1,12 +1,12 @@
 # frame_extractor
 A tool for handbook painters to create low FPS video from high FPS video
-##English Manual:
-###1	How to use this:
+## English Manual:
+### 1	How to use this:
 Drag and drop your video file on the .exe file or the .py file (if exists).
 
 =========
 
-###2	How to change desired video width, height, fps and format:
+### 2	How to change desired video width, height, fps and format:
 The name of the file is written in the format of 
 
 			frame_extractor&desired_width&desired_height&desired_fps&output_format&$language$.exe.
@@ -15,7 +15,7 @@ To modify this, just change values of "desired_width" "desired_height" "desired_
 
 =========
 
-###3	How to use the extractor through the command options:
+### 3	How to use the extractor through the command options:
 First, you need to make sure you have installed python3, numpy and opencv-python. Then, open cmd in the directory of the .py file and run 
 	
 	python ".py file" -h 
@@ -26,13 +26,13 @@ to see available options. ".py file" is the name of the .py file. It may change 
 ====================================================
 
 
-##中文说明：
-###1	如何使用：
+## 中文说明：
+### 1	如何使用：
 拖动要抽帧的视频到.exe文件或者.py文件上即可。
 
 =========
 
-###2	如何设置导出视频的长、宽、帧率、格式：
+### 2	如何设置导出视频的长、宽、帧率、格式：
 文件名是按照 
 
 			frame_extractor&目标宽度&目标高度&目标帧率&输出格式&$语言$.exe 
@@ -41,7 +41,7 @@ to see available options. ".py file" is the name of the .py file. It may change 
 
 =========
 
-###3	如何通过命令行使用frame extractor:
+### 3	如何通过命令行使用frame extractor:
 首先确保你安装了python3, numpy和opencv-python. 然后在.py文件目录下打开cmd，运行
 
 	python ".py文件" -h
