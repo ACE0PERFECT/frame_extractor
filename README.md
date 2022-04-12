@@ -18,7 +18,7 @@ To modify this, just change values of "desired_width" "desired_height" "desired_
 ### 3	How to use the extractor through the command options:
 First, you need to make sure you have installed python3, numpy and opencv-python. Then, open cmd in the directory of the .py file and run 
 	
-	python ".py file" -h 
+			python ".py file" -h 
 
 to see available options. ".py file" is the name of the .py file. It may change due to your modification. Notably, [-i] or [--input] option is REQUIRED for it is the name or path of the original video. When using extractor through command line options, setting width, height and fps through filename are not available.
 
@@ -44,6 +44,6 @@ to see available options. ".py file" is the name of the .py file. It may change 
 ### 3	如何通过命令行使用frame extractor:
 首先确保你安装了python3, numpy和opencv-python. 然后在.py文件目录下打开cmd，运行
 
-	python ".py文件" -h
+			python ".py文件" -h
 
 查看可用options。 ".py 文件"是.py文件名，根据你的修改文件名会有些许不同。注意，[-i]或者[--input] option是必需的，因为它用于搜索原视频。在使用命令行操作时，通过文件名设置宽高和帧率的功能不可用。
