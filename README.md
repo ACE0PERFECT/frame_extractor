@@ -11,7 +11,7 @@ The name of the file is written in the format of
 
 			frame_extractor&desired_width&desired_height&desired_fps&output_format&$language$.exe.
 
-To modify this, just change values of "desired_width" "desired_height" "desired_fps" "output_format" between ampersands. Notably, the former 3 values only accept integers. The desired_fps should not be greater than the original fps. To switch to Chinese, change the "language" to zh_CN .
+To modify this, just change values of "desired_width" "desired_height" "desired_fps" "output_format" between ampersands. Notably, the former 3 values only accept integers. The desired_fps should not be greater than the original fps. To switch to Chinese, change the "language" to zh_CN . For English, en_US.
 
 =========
 
